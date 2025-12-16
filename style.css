@@ -31,6 +31,12 @@ body {
   border: none;
 }
 
+.error {
+  margin-top: 0.5em;
+  min-height: 1.2em;
+  font-size: 0.9em;
+}
+
 #box {
   margin-top: 1em;
   width: 150px;
