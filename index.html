@@ -10,12 +10,26 @@
 <body>
   <div class="app">
     <h1>Color Changer</h1>
-    <input id="color-input" type="text" placeholder="Enter color (e.g. #ff0000)">
-    <button id="apply-btn">Apply Color</button>
-    <button id="reset-btn">Reset Color</button>
+    
+    <div class="user-section">
+      <input id="username-input" type="text" placeholder="Enter username">
+      <button id="login-btn">Login</button>
+      <div id="user-status"></div>
+    </div>
+    
+    <div class="color-section">
+      <input id="color-input" type="text" placeholder="Enter color (e.g. #ff0000)">
+      <button id="apply-btn">Apply Color</button>
+      <button id="reset-btn">Reset Color</button>
+      <button id="save-favorite-btn">Save as Favorite</button>
+      <button id="load-favorite-btn">Load Favorite</button>
+    </div>
+    
     <div id="error-message" class="error"></div>
     <div id="box"></div>
   </div>
+  
+  <script src="userService.js"></script>
   <script src="script.js"></script>
 </body>
 
